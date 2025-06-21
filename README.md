@@ -1,53 +1,55 @@
-# Nome do Projeto
+# Vehicle Detection and Counting with OpenCV
 
-> Breve descrição do projeto em 2-3 frases, explicando o propósito, motivação e problema que resolve.
+> Projeto de visão computacional para detecção e contagem automática de veículos em vídeos de tráfego, utilizando técnicas de subtração de fundo e processamento de imagens com OpenCV.
 
-![Demonstração do sistema](link-para-gif-ou-imagem)
+![Demonstração do sistema](display.gif)
 
 ## Funcionalidades Principais
 
-- Liste as principais funcionalidades do projeto.
-- Destaque o que é inovador ou diferencial.
+- Detecção automática de veículos em movimento em vídeos.
+- Contagem de veículos que cruzam uma linha de interesse (ROI).
+- Suporte a múltiplos algoritmos de subtração de fundo (KNN, MOG, MOG2, GMG, CNT).
+- Visualização em tempo real dos resultados com marcação dos veículos detectados.
 
 ## Tecnologias Utilizadas
 
-- Liste as principais tecnologias, frameworks e bibliotecas.
+- Python 3
+- OpenCV (opencv-python, opencv-contrib-python)
+- Numpy
 
 ## Como Executar
 
 1. Clone o repositório:
-   ```
-   git clone https://github.com/usuario/repositorio.git
-   ```
 2. Instale as dependências:
    ```
-   comando de instalação
+   pip install opencv-contrib-python numpy
    ```
 3. Execute o projeto:
    ```
-   comando para rodar
+   python scripts/main.py
    ```
 
 ## Como Usar
 
-- Explique como acessar e testar as principais funcionalidades.
-- Se necessário, inclua exemplos de uso ou prints.
+- Certifique-se de que o vídeo desejado está na pasta `dataset/`.
+- Por padrão, o script utiliza o vídeo `Ponte.mp4`. Para trocar, altere a variável `VIDEO_PATH` em `scripts/main.py`.
+- O resultado será exibido em uma janela, mostrando a contagem de veículos em tempo real.
+- Pressione `ESC` para encerrar a execução.
 
 ## Estrutura de Diretórios
 
 ```
-/nome-do-projeto
-├── src/
-├── data/
-├── results/
+/Python-VisaoComputacionalDeteccaoMovimentoOpenCV
+├── class_files/         # Scripts das aulas e imagens geradas
+├── dataset/             # Vídeos de entrada
+├── scripts/             # Código principal do projeto
+│   └── main.py
 └── README.md
 ```
 
 ## Status
 
 - ✅ Concluído
-- 🛠️ Em manutenção
-- 🚧 Em desenvolvimento
 
 > Veja as [issues abertas](https://github.com/usuario/repositorio/issues) para sugestões de melhorias e próximos passos.
 

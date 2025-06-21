@@ -1,0 +1,24 @@
+# Curso de Visão Computacional: Detecção de Movimento com Open CV
+
+# o que eu aprendi
+
+O curso abrange o desenvolvimento de um projeto de detecção de movimento com open cv, particulamente, detecção e contagem de veiculos que passam em uma ponte. Ao longo das 10h de curso, a intrutora vai introduzindo conceitos fundamentais para o código geral do projeto, para ao ver o código final, entender a função de cada parte.
+Além disso, desenvolvemos máscaras. Conceitos importantes introduzidos da definição de video como conglomerado de imagens, filtros, kernels e máscaras.
+
+# por que foi importante para mim
+
+A aplicação do OpenCV e da utilização do algoritmos de modelos (KNN, MOG, MOG2, GMG e CNT).
+
+# resultado
+
+Projeto otimizado está no meu github pessoal.
+
+///////////////////////////////////////////////////////////////////////////////
+
+Relatório: Aprendizado no Curso de Visão Computacional com OpenCV
+
+Durante o curso de Visão Computacional focado em detecção de movimento com OpenCV, desenvolvi um projeto prático para detectar e contar veículos em uma ponte. O curso abordou conceitos fundamentais como processamento de vídeo, uso de filtros, kernels e máscaras, além da aplicação de diferentes algoritmos de subtração de fundo (KNN, MOG, MOG2, GMG e CNT).
+
+Esses conhecimentos foram essenciais para entender o funcionamento de cada etapa do projeto, desde a manipulação de imagens até a contagem precisa de objetos em movimento. A experiência foi importante para aprimorar minhas habilidades em Python e OpenCV, além de proporcionar uma visão prática sobre aplicações reais de visão computacional.
+
+O projeto final está otimizado e disponível no meu GitHub pessoal.
