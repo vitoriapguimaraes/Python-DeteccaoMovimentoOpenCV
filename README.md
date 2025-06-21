@@ -1,4 +1,4 @@
-# Vehicle Detection and Counting with OpenCV
+# Detecção e Contagem de veículos com OpenCV
 
 > Projeto de visão computacional para detecção e contagem automática de veículos em vídeos de tráfego, utilizando técnicas de subtração de fundo e processamento de imagens com OpenCV.
 
